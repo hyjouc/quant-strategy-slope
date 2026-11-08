@@ -1,0 +1,2 @@
+# Preserve exact artifact and frozen-input bytes across Windows checkouts.
+* -text
