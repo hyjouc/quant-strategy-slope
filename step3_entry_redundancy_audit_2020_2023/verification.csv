@@ -1,0 +1,144 @@
+﻿check,passed
+all Step1 input/result artifact hashes,True
+date-column-only range audit,True
+complete contiguous input 140255 bars,True
+formal eligible count matches Step1,True
+4h features available only after completed 4h close,True
+causal feature prefix,True
+causal scoring prefix 1,True
+causal scoring prefix -1,True
+1 horizon 1 terminal missing,True
+1 horizon 2 terminal missing,True
+1 horizon 4 terminal missing,True
+1 horizon 8 terminal missing,True
+-1 horizon 1 terminal missing,True
+-1 horizon 2 terminal missing,True
+-1 horizon 4 terminal missing,True
+-1 horizon 8 terminal missing,True
+long Step1 frozen technical/quality counts,True
+unfiltered_long contribution exact score reconstruction,True
+filtered_long contribution exact score reconstruction,True
+short Step1 frozen technical/quality counts,True
+unfiltered_short contribution exact score reconstruction,True
+4w bootstrap exact day weight totals,True
+8w bootstrap exact day weight totals,True
+original artifacts unchanged after audit,True
+last held horizon can only end before cutoff,True
+next-open return hand check 1/1/1000,True
+complete future-bar extremes hand check 1/1/1000,True
+future bar count and exact time 1/1/1000,True
+next-open return hand check 1/1/12345,True
+complete future-bar extremes hand check 1/1/12345,True
+future bar count and exact time 1/1/12345,True
+next-open return hand check 1/1/140250,True
+complete future-bar extremes hand check 1/1/140250,True
+future bar count and exact time 1/1/140250,True
+next-open return hand check 1/2/1000,True
+complete future-bar extremes hand check 1/2/1000,True
+future bar count and exact time 1/2/1000,True
+next-open return hand check 1/2/12345,True
+complete future-bar extremes hand check 1/2/12345,True
+future bar count and exact time 1/2/12345,True
+next-open return hand check 1/2/140246,True
+complete future-bar extremes hand check 1/2/140246,True
+future bar count and exact time 1/2/140246,True
+next-open return hand check 1/4/1000,True
+complete future-bar extremes hand check 1/4/1000,True
+future bar count and exact time 1/4/1000,True
+next-open return hand check 1/4/12345,True
+complete future-bar extremes hand check 1/4/12345,True
+future bar count and exact time 1/4/12345,True
+next-open return hand check 1/4/140238,True
+complete future-bar extremes hand check 1/4/140238,True
+future bar count and exact time 1/4/140238,True
+next-open return hand check 1/8/1000,True
+complete future-bar extremes hand check 1/8/1000,True
+future bar count and exact time 1/8/1000,True
+next-open return hand check 1/8/12345,True
+complete future-bar extremes hand check 1/8/12345,True
+future bar count and exact time 1/8/12345,True
+next-open return hand check 1/8/140222,True
+complete future-bar extremes hand check 1/8/140222,True
+future bar count and exact time 1/8/140222,True
+next-open return hand check -1/1/1000,True
+complete future-bar extremes hand check -1/1/1000,True
+future bar count and exact time -1/1/1000,True
+next-open return hand check -1/1/12345,True
+complete future-bar extremes hand check -1/1/12345,True
+future bar count and exact time -1/1/12345,True
+next-open return hand check -1/1/140250,True
+complete future-bar extremes hand check -1/1/140250,True
+future bar count and exact time -1/1/140250,True
+next-open return hand check -1/2/1000,True
+complete future-bar extremes hand check -1/2/1000,True
+future bar count and exact time -1/2/1000,True
+next-open return hand check -1/2/12345,True
+complete future-bar extremes hand check -1/2/12345,True
+future bar count and exact time -1/2/12345,True
+next-open return hand check -1/2/140246,True
+complete future-bar extremes hand check -1/2/140246,True
+future bar count and exact time -1/2/140246,True
+next-open return hand check -1/4/1000,True
+complete future-bar extremes hand check -1/4/1000,True
+future bar count and exact time -1/4/1000,True
+next-open return hand check -1/4/12345,True
+complete future-bar extremes hand check -1/4/12345,True
+future bar count and exact time -1/4/12345,True
+next-open return hand check -1/4/140238,True
+complete future-bar extremes hand check -1/4/140238,True
+future bar count and exact time -1/4/140238,True
+next-open return hand check -1/8/1000,True
+complete future-bar extremes hand check -1/8/1000,True
+future bar count and exact time -1/8/1000,True
+next-open return hand check -1/8/12345,True
+complete future-bar extremes hand check -1/8/12345,True
+future bar count and exact time -1/8/12345,True
+next-open return hand check -1/8/140222,True
+complete future-bar extremes hand check -1/8/140222,True
+future bar count and exact time -1/8/140222,True
+long 16 pattern partition,True
+long disjoint added M,True
+long technical counts M,True
+long pipeline counts M,True
+long disjoint added S,True
+long technical counts S,True
+long pipeline counts S,True
+long disjoint added A,True
+long technical counts A,True
+long pipeline counts A,True
+long disjoint added T,True
+long technical counts T,True
+long pipeline counts T,True
+long event reason partition,True
+long all successful events exact two closes next open and cost,True
+short 16 pattern partition,True
+short disjoint added M,True
+short technical counts M,True
+short pipeline counts M,True
+short disjoint added S,True
+short technical counts S,True
+short pipeline counts S,True
+short disjoint added A,True
+short technical counts A,True
+short pipeline counts A,True
+short disjoint added T,True
+short technical counts T,True
+short pipeline counts T,True
+short event reason partition,True
+short all successful events exact two closes next open and cost,True
+all technical pipeline and Ridge outcome counts means medians recomputed,True
+precision vs residual partial 0/1,True
+precision vs residual partial 1/3,True
+precision vs residual partial 2/3,True
+4w 10000 complete block draws,True
+4w independent CI reconstruction pipeline_remove_A_minus_baseline,True
+4w independent CI reconstruction confirmation_paired_second_minus_first,True
+4w independent CI reconstruction confirmation_common_clock_success_minus_failed,True
+8w 10000 complete block draws,True
+8w independent CI reconstruction pipeline_remove_A_minus_baseline,True
+8w independent CI reconstruction confirmation_paired_second_minus_first,True
+8w independent CI reconstruction confirmation_common_clock_success_minus_failed,True
+no full strategy replay call,True
+408 comparisons both block lengths,True
+all Step1 original artifacts unchanged,True
+all Step2 original artifacts unchanged,True

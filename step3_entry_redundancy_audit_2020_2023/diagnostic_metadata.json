@@ -1,0 +1,47 @@
+{
+  "task": "V19_STEP3_ENTRY_REDUNDANCY_AUDIT_2020_2023",
+  "base_commit": "c2cedb8524ebc7c6574c03d41cb0decdbaf086a5",
+  "seed": 20261108,
+  "bootstrap_replicates": 10000,
+  "block_weeks": [
+    4,
+    8
+  ],
+  "bootstrap_method": "non-circular moving calendar-day blocks; common draws; same-day signals sampled together; truncated final block",
+  "bars": 140255,
+  "eligible_bars": 139297,
+  "first_open": "2020-01-01 00:00:00+00:00",
+  "last_open": "2023-12-31 23:30:00+00:00",
+  "last_close": "2023-12-31 23:45:00+00:00",
+  "formal_start": "2020-01-10 23:45:00+00:00",
+  "cutoff": "2023-12-31 23:59:59+00:00",
+  "source_sha256": {
+    "ohlcv_closed_pre2024.feather": "2c6eb56c8db8498263cd6a5e56eb75a8d27fdcf9225003b02ed60a077f112c79",
+    "selected_models_30.json": "f7f86d63452bb81a1acbb52a4a5553139443d89582a2d10643adad0db481eba0",
+    "ETH_KalmanMomentum_V18C3_TwoConfirm.py": "39b5ee58b32a75c9a775e57fd5dba9bdb67d426393c9bcd90642276c11502fd9"
+  },
+  "models": [
+    "unfiltered_long",
+    "unfiltered_short",
+    "filtered_long"
+  ],
+  "filtered_long_role": "contextual decomposition only; not baseline gate",
+  "forward_entry": "next open, no fees/slippage/leverage or position constraints; signal diagnostics only",
+  "future_label": "close after 4*h complete held bars; MFE/MAE high-low over those same bars",
+  "full_strategy_backtests": 0,
+  "models_refit": 0,
+  "parameters_optimized": 0,
+  "step4_started": false,
+  "statistical_status": "exploratory retrospective, not independent OOS; bootstrap does not remove selection bias or multiplicity",
+  "verification_count": 143,
+  "python": "3.14.3",
+  "numpy": "2.4.6",
+  "pandas": "3.0.3",
+  "bootstrap_comparisons": 408,
+  "independent_bootstrap_reconstruction": true,
+  "step1_step2_unchanged": true,
+  "confirmation_common_clock_comparison_added": true,
+  "figure_visual_review_completed": true,
+  "preexisting_untracked_directory_preserved": "step3_robustness_audit_2020_2023, locally excluded only",
+  "report_contains_all_Q1_Q8": true
+}

@@ -1,0 +1,14 @@
+PASS all Step1 input/result artifact hashes
+PASS date-column-only range audit
+PASS complete contiguous input 140255 bars
+Traceback (most recent call last):
+  File "E:\freqtrade\user_data\data\slope\research\v19_step1_baseline_audit_2020_2023\step3_entry_redundancy_audit_2020_2023\run_step3.py", line 255, in <module>
+    if __name__=='__main__':main()
+                            ~~~~^^
+  File "E:\freqtrade\user_data\data\slope\research\v19_step1_baseline_audit_2020_2023\step3_entry_redundancy_audit_2020_2023\run_step3.py", line 134, in main
+    ck('formal eligible count matches Step1',eligible.sum()==139297)
+    ~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\freqtrade\user_data\data\slope\research\v19_step1_baseline_audit_2020_2023\step3_entry_redundancy_audit_2020_2023\run_step3.py", line 24, in ck
+    CHECKS.append(dict(check=name,passed=bool(ok)));assert bool(ok),name
+                                                           ~~~~^^^^
+AssertionError: formal eligible count matches Step1

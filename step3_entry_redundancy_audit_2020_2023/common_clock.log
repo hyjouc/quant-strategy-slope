@@ -1,0 +1,17 @@
+PASS 1 horizon 1 terminal missing
+PASS 1 horizon 2 terminal missing
+PASS 1 horizon 4 terminal missing
+PASS 1 horizon 8 terminal missing
+PASS -1 horizon 1 terminal missing
+PASS -1 horizon 2 terminal missing
+PASS -1 horizon 4 terminal missing
+PASS -1 horizon 8 terminal missing
+direction  horizon_hours  mean_difference  ci95_low  ci95_high
+     long              1         0.089469 -0.061195   0.237733
+     long              2         0.182122  0.016074   0.347256
+     long              4         0.293298  0.036431   0.530864
+     long              8         0.462494  0.051998   0.806597
+    short              1         0.004826 -0.222615   0.195972
+    short              2         0.115305 -0.077524   0.310710
+    short              4         0.096447 -0.070909   0.277793
+    short              8         0.196664 -0.086272   0.526087

@@ -1,0 +1,86 @@
+{
+  "confirmation_common_clock.png": {
+    "size_pixels": [
+      1920,
+      720
+    ],
+    "dpi": [
+      159.9946,
+      159.9946
+    ],
+    "source": "Corresponding CSV tables; no trimming or smoothing",
+    "destination": "Internal exploratory research report, not journal-specific"
+  },
+  "indicator_correlation.png": {
+    "size_pixels": [
+      1600,
+      736
+    ],
+    "dpi": [
+      159.9946,
+      159.9946
+    ],
+    "source": "Corresponding CSV tables; no trimming or smoothing",
+    "destination": "Internal exploratory research report, not journal-specific"
+  },
+  "marginal_counts.png": {
+    "size_pixels": [
+      1760,
+      720
+    ],
+    "dpi": [
+      159.9946,
+      159.9946
+    ],
+    "source": "Corresponding CSV tables; no trimming or smoothing",
+    "destination": "Internal exploratory research report, not journal-specific"
+  },
+  "marginal_outcomes.png": {
+    "size_pixels": [
+      1920,
+      768
+    ],
+    "dpi": [
+      159.9946,
+      159.9946
+    ],
+    "source": "Corresponding CSV tables; no trimming or smoothing",
+    "destination": "Internal exploratory research report, not journal-specific"
+  },
+  "pass_patterns.png": {
+    "size_pixels": [
+      2240,
+      720
+    ],
+    "dpi": [
+      159.9946,
+      159.9946
+    ],
+    "source": "Corresponding CSV tables; no trimming or smoothing",
+    "destination": "Internal exploratory research report, not journal-specific"
+  },
+  "ridge_contributions.png": {
+    "size_pixels": [
+      2400,
+      640
+    ],
+    "dpi": [
+      159.9946,
+      159.9946
+    ],
+    "source": "Corresponding CSV tables; no trimming or smoothing",
+    "destination": "Internal exploratory research report, not journal-specific"
+  },
+  "two_confirmation.png": {
+    "size_pixels": [
+      1920,
+      720
+    ],
+    "dpi": [
+      159.9946,
+      159.9946
+    ],
+    "source": "Corresponding CSV tables; no trimming or smoothing",
+    "destination": "Internal exploratory research report, not journal-specific"
+  }
+}

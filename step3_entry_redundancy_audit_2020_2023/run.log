@@ -1,0 +1,91 @@
+PASS all Step1 input/result artifact hashes
+PASS date-column-only range audit
+PASS complete contiguous input 140255 bars
+PASS formal eligible count matches Step1
+PASS 4h features available only after completed 4h close
+PASS causal feature prefix
+PASS causal scoring prefix 1
+PASS causal scoring prefix -1
+PASS 1 horizon 1 terminal missing
+PASS 1 horizon 2 terminal missing
+PASS 1 horizon 4 terminal missing
+PASS 1 horizon 8 terminal missing
+PASS -1 horizon 1 terminal missing
+PASS -1 horizon 2 terminal missing
+PASS -1 horizon 4 terminal missing
+PASS -1 horizon 8 terminal missing
+PASS long Step1 frozen technical/quality counts
+Correlation and counts long 2020-2023
+Correlation and counts long 2020-2022
+Correlation and counts long 2020
+Correlation and counts long 2021
+Correlation and counts long 2022
+Correlation and counts long 2023
+Correlation and counts long 2020Q1
+Correlation and counts long 2020Q2
+Correlation and counts long 2020Q3
+Correlation and counts long 2020Q4
+Correlation and counts long 2021Q1
+Correlation and counts long 2021Q2
+Correlation and counts long 2021Q3
+Correlation and counts long 2021Q4
+Correlation and counts long 2022Q1
+Correlation and counts long 2022Q2
+Correlation and counts long 2022Q3
+Correlation and counts long 2022Q4
+Correlation and counts long 2023Q1
+Correlation and counts long 2023Q2
+Correlation and counts long 2023Q3
+Correlation and counts long 2023Q4
+PASS unfiltered_long contribution exact score reconstruction
+PASS filtered_long contribution exact score reconstruction
+PASS short Step1 frozen technical/quality counts
+Correlation and counts short 2020-2023
+Correlation and counts short 2020-2022
+Correlation and counts short 2020
+Correlation and counts short 2021
+Correlation and counts short 2022
+Correlation and counts short 2023
+Correlation and counts short 2020Q1
+Correlation and counts short 2020Q2
+Correlation and counts short 2020Q3
+Correlation and counts short 2020Q4
+Correlation and counts short 2021Q1
+Correlation and counts short 2021Q2
+Correlation and counts short 2021Q3
+Correlation and counts short 2021Q4
+Correlation and counts short 2022Q1
+Correlation and counts short 2022Q2
+Correlation and counts short 2022Q3
+Correlation and counts short 2022Q4
+Correlation and counts short 2023Q1
+Correlation and counts short 2023Q2
+Correlation and counts short 2023Q3
+Correlation and counts short 2023Q4
+PASS unfiltered_short contribution exact score reconstruction
+PASS 4w bootstrap exact day weight totals
+Bootstrap finished 4 weeks 384 comparisons
+PASS 8w bootstrap exact day weight totals
+Bootstrap finished 8 weeks 384 comparisons
+PASS original artifacts unchanged after audit
+Audit computations complete
+
+SUPPLEMENT: same executable clock comparison; uses identical saved bootstrap draws, no new strategy arm.
+PASS 1 horizon 1 terminal missing
+PASS 1 horizon 2 terminal missing
+PASS 1 horizon 4 terminal missing
+PASS 1 horizon 8 terminal missing
+PASS -1 horizon 1 terminal missing
+PASS -1 horizon 2 terminal missing
+PASS -1 horizon 4 terminal missing
+PASS -1 horizon 8 terminal missing
+direction  horizon_hours  mean_difference  ci95_low  ci95_high
+     long              1         0.089469 -0.061195   0.237733
+     long              2         0.182122  0.016074   0.347256
+     long              4         0.293298  0.036431   0.530864
+     long              8         0.462494  0.051998   0.806597
+    short              1         0.004826 -0.222615   0.195972
+    short              2         0.115305 -0.077524   0.310710
+    short              4         0.096447 -0.070909   0.277793
+    short              8         0.196664 -0.086272   0.526087
+FINAL: 408 diagnostic comparison definitions including common-clock control; 816 rows for 4/8 weeks; 10000 draws per length; 143 validations passed. No strategy replay or next-stage experiment.

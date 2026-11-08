@@ -1,0 +1,17 @@
+PASS all Step1 input/result artifact hashes
+PASS date-column-only range audit
+PASS complete contiguous input 140255 bars
+PASS formal eligible count matches Step1
+PASS 4h features available only after completed 4h close
+PASS causal feature prefix
+PASS causal scoring prefix 1
+PASS causal scoring prefix -1
+PASS 1 horizon 1 terminal missing
+PASS 1 horizon 2 terminal missing
+PASS 1 horizon 4 terminal missing
+PASS 1 horizon 8 terminal missing
+PASS -1 horizon 1 terminal missing
+PASS -1 horizon 2 terminal missing
+PASS -1 horizon 4 terminal missing
+PASS -1 horizon 8 terminal missing
+PASS long Step1 frozen technical/quality counts

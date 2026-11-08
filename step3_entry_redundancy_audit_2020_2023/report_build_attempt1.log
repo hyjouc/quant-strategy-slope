@@ -1,0 +1,21 @@
+Traceback (most recent call last):
+  File "E:\freqtrade\user_data\data\slope\research\v19_step1_baseline_audit_2020_2023\step3_entry_redundancy_audit_2020_2023\present_step3.py", line 173, in <module>
+    if __name__=='__main__':main()
+                            ~~~~^^
+  File "E:\freqtrade\user_data\data\slope\research\v19_step1_baseline_audit_2020_2023\step3_entry_redundancy_audit_2020_2023\present_step3.py", line 45, in main
+    z=pt[(pt.direction==side)&(pt.period=='2020-2023')];ax.bar(range(16),z.rate*100,color=c);ax.set(xticks=range(16),xticklabels=z.pattern.str.zfill(4),title=side,ylabel='Percent of eligible bars',xlabel='M S A T pass pattern');ax.tick_params(axis='x',rotation=70)
+                                                                                                                                 ^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python314\Lib\site-packages\pandas\core\generic.py", line 6206, in __getattr__
+    return object.__getattribute__(self, name)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python314\Lib\site-packages\pandas\core\accessor.py", line 230, in __get__
+    return self._accessor(obj)
+           ~~~~~~~~~~~~~~^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python314\Lib\site-packages\pandas\core\strings\accessor.py", line 194, in __init__
+    self._inferred_dtype = self._validate(data)
+                           ~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python314\Lib\site-packages\pandas\core\strings\accessor.py", line 248, in _validate
+    raise AttributeError(
+        f"Can only use .str accessor with string values, not {inferred_dtype}"
+    )
+AttributeError: Can only use .str accessor with string values, not integer. Did you mean: 'std'?
