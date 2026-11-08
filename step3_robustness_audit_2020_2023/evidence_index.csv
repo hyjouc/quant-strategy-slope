@@ -1,0 +1,8 @@
+﻿source,snapshot,sha256,type
+E:\freqtrade\user_data\data\slope\parameter_selection_lab_20261020\second_accel\run_v18_c3_span001.py,evidence/01_run_v18_c3_span001.py,aecc21e6b62bb33b60062b2a6f6ed12ead3adf0ffae92ba4b37841fb4b432b89,source text or metadata only; never executed
+E:\freqtrade\user_data\data\slope\research_split_2020_2022_validate_2023_2024_v18.py,evidence/02_research_split_2020_2022_validate_2023_2024_v18.py,65741386f7762d6cbafa7c6ed0e90fa7b0d108ccc4f6bf379f365a1b03248acb,source text or metadata only; never executed
+E:\freqtrade\user_data\data\slope\research_directional_independent_v5.py,evidence/03_research_directional_independent_v5.py,e69586cfc4d8734efbed7898c444c953bb6e0ed904891615f1dca1533e5750d2,source text or metadata only; never executed
+E:\freqtrade\user_data\data\slope\parameter_selection_lab_20261020\second_accel\v18_c3_span001\protocol.json,evidence/04_protocol.json,8d1027c94f913568ba0de0d0072196a193bfed3b00dfc9c986c15528f14a1757,source text or metadata only; never executed
+E:\freqtrade\user_data\data\slope\parameter_selection_lab_20261020\second_accel\v18_c3_span001\source_audit.json,evidence/05_source_audit.json,8af4758e3829ad2524f3a4e22b1371414f22ace371612057d1cf8c415f0da572,source text or metadata only; never executed
+E:\freqtrade\user_data\data\slope\parameter_selection_lab_20261020\second_accel\v18_c3_span001\locked_selection.json,evidence/06_locked_selection.json,18b6ba77cf6980278b380d806d96bb5793bb3555cf47f60133c8bd4a5e95a48c,source text or metadata only; never executed
+E:\freqtrade\user_data\data\slope\V18_基准质量筛选版_完整回测方法.md,evidence/parameter_method_excerpt.md,c407c876007918fae1fd1beacb1ae8b583953e227d89b8ea4329b3d84dffb7cc,"method-only excerpt, original lines 143-250"

@@ -1,0 +1,3 @@
+c2cedb8524ebc7c6574c03d41cb0decdbaf086a5 2026-11-08T12:49:29+08:00 Run verified 2020-2023 short exit momentum single-factor ablation
+03a71cf8c587bf7bf67b17aef7513fab3e6719e4 2026-11-08T11:17:43+08:00 Preserve byte-exact frozen inputs and artifact hashes across checkouts
+a682b5d77ae6be2f9aa53445fbbbb7843dbe72b0 2026-11-08T11:17:22+08:00 Audit frozen V18 baseline behavior on closed 2020-2023 candles

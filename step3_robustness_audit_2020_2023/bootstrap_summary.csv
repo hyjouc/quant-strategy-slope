@@ -1,0 +1,7 @@
+﻿block_days,replicates,direction,observed_B_minus_A,bootstrap_mean,bootstrap_median,percentile95_low,percentile95_high,fraction_B_minus_A_gt0,seed,days,method
+28,20000,long,-101.99050757776877,-123.26127667427863,-118.43137483031887,-597.4619353640705,324.59625199040926,0.3065,20261136,1452,paired overlapping noncircular moving blocks; truncate final block; no centering
+28,20000,short,-382.85971063800775,-434.8024865757266,-408.42810220203046,-1565.5685093645538,569.3519955728993,0.2198,20261136,1452,paired overlapping noncircular moving blocks; truncate final block; no centering
+28,20000,combined,-484.8502182157763,-558.0637632500052,-539.6077516285936,-1695.6252770321348,471.6294397931372,0.15815,20261136,1452,paired overlapping noncircular moving blocks; truncate final block; no centering
+56,20000,long,-101.99050757776877,-136.8477486551755,-129.305014811893,-596.0900249261359,279.44070584014315,0.2733,20261164,1452,paired overlapping noncircular moving blocks; truncate final block; no centering
+56,20000,short,-382.85971063800775,-446.1375949279165,-427.7817365020579,-1538.2673685435043,546.3080666461286,0.207,20261164,1452,paired overlapping noncircular moving blocks; truncate final block; no centering
+56,20000,combined,-484.8502182157763,-582.9853435830922,-565.4289640986444,-1674.7212284556144,399.657837964759,0.1322,20261164,1452,paired overlapping noncircular moving blocks; truncate final block; no centering

@@ -1,0 +1,7 @@
+﻿variant,cost_multiplier,trades,net_pnl,definition
+A,1.0,710,6954.349451808073,fixed actual base ledgers repriced; raw exit unchanged even for stops; accounting diagnostic only
+A,1.5,710,5958.207638187005,fixed actual base ledgers repriced; raw exit unchanged even for stops; accounting diagnostic only
+A,2.0,710,4962.558875915908,fixed actual base ledgers repriced; raw exit unchanged even for stops; accounting diagnostic only
+B,1.0,748,6469.499233592325,fixed actual base ledgers repriced; raw exit unchanged even for stops; accounting diagnostic only
+B,1.5,748,5420.190953318905,fixed actual base ledgers repriced; raw exit unchanged even for stops; accounting diagnostic only
+B,2.0,748,4371.402777982364,fixed actual base ledgers repriced; raw exit unchanged even for stops; accounting diagnostic only

@@ -1,0 +1,21 @@
+{
+  "chosen": {
+    "30": {
+      "unfiltered_long": "0.02",
+      "unfiltered_short": "0.08",
+      "filtered_long": "0.08",
+      "filtered_short": "none"
+    },
+    "75": {
+      "unfiltered_long": "0.02",
+      "unfiltered_short": "0.08",
+      "filtered_long": "none",
+      "filtered_short": "0.02"
+    }
+  },
+  "training_end": "2022-12-31 23:45UTC",
+  "selection_end": "2024-12-31 23:45UTC",
+  "test_start": "2025-01-01UTC",
+  "source_sha256": "65741386f7762d6cbafa7c6ed0e90fa7b0d108ccc4f6bf379f365a1b03248acb",
+  "selection_sha256": "bad4bf46e29dcfeb830ba596a8d9b097f4f4abbe69c0df95693a22160b5c7f48"
+}

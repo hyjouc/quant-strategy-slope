@@ -1,0 +1,127 @@
+PASS selected model matches historical frozen model unfiltered_long
+PASS selected model matches historical frozen model unfiltered_short
+PASS original anchors unavailable explicitly recorded
+PASS A pre2024 curve only
+PASS A no censored trades
+PASS B pre2024 curve only
+PASS B no censored trades
+PASS 238 common normal short exits
+PASS 58 A-better common normal shorts
+PASS A/B daily aligned complete index
+PASS paired draw linearity block28
+PASS paired draw linearity block56
+PASS cost data complete pre2024
+PASS cost1.0 A independent orders
+PASS cost1.0 A independent equity
+PASS cost1.0 A independent fills
+PASS cost1.0 A directional mark sum
+PASS cost1 A Step2 exact baseline
+COST 1.0 A net 6954.349451807893
+PASS cost1.0 B independent orders
+PASS cost1.0 B independent equity
+PASS cost1.0 B independent fills
+PASS cost1.0 B directional mark sum
+PASS cost1 B Step2 exact baseline
+COST 1.0 B net 6469.49923359212
+PASS cost1.5 A independent orders
+PASS cost1.5 A independent equity
+PASS cost1.5 A independent fills
+PASS cost1.5 A directional mark sum
+COST 1.5 A net 5818.362678631299
+PASS cost1.5 B independent orders
+PASS cost1.5 B independent equity
+PASS cost1.5 B independent fills
+PASS cost1.5 B directional mark sum
+COST 1.5 B net 5251.119895718076
+PASS cost2.0 A independent orders
+PASS cost2.0 A independent equity
+PASS cost2.0 A independent fills
+PASS cost2.0 A directional mark sum
+COST 2.0 A net 4816.743479968333
+PASS cost2.0 B independent orders
+PASS cost2.0 B independent equity
+PASS cost2.0 B independent fills
+PASS cost2.0 B directional mark sum
+COST 2.0 B net 4151.056522605014
+PASS prior artifact unchanged .gitattributes
+PASS prior artifact unchanged .gitignore
+PASS prior artifact unchanged annual_performance.csv
+PASS prior artifact unchanged artifact_manifest.json
+PASS prior artifact unchanged A_T_relationship.csv
+PASS prior artifact unchanged baseline_audit_report.md
+PASS prior artifact unchanged boundary_validation.csv
+PASS prior artifact unchanged boundary_validation.log
+PASS prior artifact unchanged build_report.py
+PASS prior artifact unchanged censored_open_trades.csv
+PASS prior artifact unchanged condition_combinations.csv
+PASS prior artifact unchanged diagnostic_metadata.json
+PASS prior artifact unchanged entry_delay_summary.csv
+PASS prior artifact unchanged environment_versions.json
+PASS prior artifact unchanged equity_curve.csv
+PASS prior artifact unchanged exit_giveback_summary.csv
+PASS prior artifact unchanged figure_metadata.json
+PASS prior artifact unchanged figure_validation.log
+PASS prior artifact unchanged long_hold_low_contribution.csv
+PASS prior artifact unchanged monthly_performance.csv
+PASS prior artifact unchanged per_bar_conditions.csv.gz
+PASS prior artifact unchanged README.md
+PASS prior artifact unchanged report_build.log
+PASS prior artifact unchanged run.log
+PASS prior artifact unchanged run_attempt1.log
+PASS prior artifact unchanged run_audit.py
+PASS prior artifact unchanged signal_filter_summary.csv
+PASS prior artifact unchanged signal_forward_returns.csv
+PASS prior artifact unchanged task_request.md
+PASS prior artifact unchanged trades_diagnostic.csv
+PASS prior artifact unchanged validate_boundaries.py
+PASS prior artifact unchanged verification.csv
+PASS prior artifact unchanged step2_short_exit_ablation_2020_2023/annual_A.csv
+PASS prior artifact unchanged step2_short_exit_ablation_2020_2023/annual_B.csv
+PASS prior artifact unchanged step2_short_exit_ablation_2020_2023/annual_direction_comparison.png
+PASS prior artifact unchanged step2_short_exit_ablation_2020_2023/artifact_manifest.json
+PASS prior artifact unchanged step2_short_exit_ablation_2020_2023/audit_support.py
+PASS prior artifact unchanged step2_short_exit_ablation_2020_2023/build_step2_report.py
+PASS prior artifact unchanged step2_short_exit_ablation_2020_2023/comparison_period_direction.csv
+PASS prior artifact unchanged step2_short_exit_ablation_2020_2023/diagnostic_metadata.json
+PASS prior artifact unchanged step2_short_exit_ablation_2020_2023/environment_versions.json
+PASS prior artifact unchanged step2_short_exit_ablation_2020_2023/equity_curve_A.csv
+PASS prior artifact unchanged step2_short_exit_ablation_2020_2023/equity_curve_B.csv
+PASS prior artifact unchanged step2_short_exit_ablation_2020_2023/ETH_KalmanMomentum_V18C3_TwoConfirm.py
+PASS prior artifact unchanged step2_short_exit_ablation_2020_2023/exit_type_comparison.csv
+PASS prior artifact unchanged step2_short_exit_ablation_2020_2023/figure_metadata.json
+PASS prior artifact unchanged step2_short_exit_ablation_2020_2023/matched_entry_comparison.csv
+PASS prior artifact unchanged step2_short_exit_ablation_2020_2023/monthly_A.csv
+PASS prior artifact unchanged step2_short_exit_ablation_2020_2023/monthly_B.csv
+PASS prior artifact unchanged step2_short_exit_ablation_2020_2023/monthly_comparison.csv
+PASS prior artifact unchanged step2_short_exit_ablation_2020_2023/monthly_plan_A.csv
+PASS prior artifact unchanged step2_short_exit_ablation_2020_2023/monthly_plan_B.csv
+PASS prior artifact unchanged step2_short_exit_ablation_2020_2023/ohlcv_closed_pre2024.feather
+PASS prior artifact unchanged step2_short_exit_ablation_2020_2023/original_registration.json
+PASS prior artifact unchanged step2_short_exit_ablation_2020_2023/README.md
+PASS prior artifact unchanged step2_short_exit_ablation_2020_2023/reference_independent_zero_slip.py
+PASS prior artifact unchanged step2_short_exit_ablation_2020_2023/reference_replay.py
+PASS prior artifact unchanged step2_short_exit_ablation_2020_2023/report_build.log
+PASS prior artifact unchanged step2_short_exit_ablation_2020_2023/run.log
+PASS prior artifact unchanged step2_short_exit_ablation_2020_2023/run_audit.py
+PASS prior artifact unchanged step2_short_exit_ablation_2020_2023/run_initial.log
+PASS prior artifact unchanged step2_short_exit_ablation_2020_2023/run_step2.py
+PASS prior artifact unchanged step2_short_exit_ablation_2020_2023/selected_models_30.json
+PASS prior artifact unchanged step2_short_exit_ablation_2020_2023/short_exit_timing.csv
+PASS prior artifact unchanged step2_short_exit_ablation_2020_2023/short_exit_timing_details.csv
+PASS prior artifact unchanged step2_short_exit_ablation_2020_2023/step2_comparison.png
+PASS prior artifact unchanged step2_short_exit_ablation_2020_2023/step2_report.md
+PASS prior artifact unchanged step2_short_exit_ablation_2020_2023/strategy_identity.json
+PASS prior artifact unchanged step2_short_exit_ablation_2020_2023/trades_A_baseline.csv
+PASS prior artifact unchanged step2_short_exit_ablation_2020_2023/trades_B_sign_exit.csv
+PASS prior artifact unchanged step2_short_exit_ablation_2020_2023/validate_step2.py
+PASS prior artifact unchanged step2_short_exit_ablation_2020_2023/validation.log
+PASS prior artifact unchanged step2_short_exit_ablation_2020_2023/verification.csv
+PASS prior artifact unchanged inputs/audit_support.py
+PASS prior artifact unchanged inputs/ETH_KalmanMomentum_V18C3_TwoConfirm.py
+PASS prior artifact unchanged inputs/ohlcv_closed_pre2024.feather
+PASS prior artifact unchanged inputs/original_registration.json
+PASS prior artifact unchanged inputs/reference_independent_zero_slip.py
+PASS prior artifact unchanged inputs/reference_replay.py
+PASS prior artifact unchanged inputs/selected_models_30.json
+PASS prior artifact unchanged inputs/strategy_identity.json
+COMPLETED 120 checks

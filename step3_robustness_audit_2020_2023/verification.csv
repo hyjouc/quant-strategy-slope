@@ -1,0 +1,190 @@
+﻿check,passed
+selected model matches historical frozen model unfiltered_long,True
+selected model matches historical frozen model unfiltered_short,True
+original anchors unavailable explicitly recorded,True
+A pre2024 curve only,True
+A no censored trades,True
+B pre2024 curve only,True
+B no censored trades,True
+238 common normal short exits,True
+58 A-better common normal shorts,True
+A/B daily aligned complete index,True
+paired draw linearity block28,True
+paired draw linearity block56,True
+cost data complete pre2024,True
+cost1.0 A independent orders,True
+cost1.0 A independent equity,True
+cost1.0 A independent fills,True
+cost1.0 A directional mark sum,True
+cost1 A Step2 exact baseline,True
+cost1.0 B independent orders,True
+cost1.0 B independent equity,True
+cost1.0 B independent fills,True
+cost1.0 B directional mark sum,True
+cost1 B Step2 exact baseline,True
+cost1.5 A independent orders,True
+cost1.5 A independent equity,True
+cost1.5 A independent fills,True
+cost1.5 A directional mark sum,True
+cost1.5 B independent orders,True
+cost1.5 B independent equity,True
+cost1.5 B independent fills,True
+cost1.5 B directional mark sum,True
+cost2.0 A independent orders,True
+cost2.0 A independent equity,True
+cost2.0 A independent fills,True
+cost2.0 A directional mark sum,True
+cost2.0 B independent orders,True
+cost2.0 B independent equity,True
+cost2.0 B independent fills,True
+cost2.0 B directional mark sum,True
+prior artifact unchanged .gitattributes,True
+prior artifact unchanged .gitignore,True
+prior artifact unchanged annual_performance.csv,True
+prior artifact unchanged artifact_manifest.json,True
+prior artifact unchanged A_T_relationship.csv,True
+prior artifact unchanged baseline_audit_report.md,True
+prior artifact unchanged boundary_validation.csv,True
+prior artifact unchanged boundary_validation.log,True
+prior artifact unchanged build_report.py,True
+prior artifact unchanged censored_open_trades.csv,True
+prior artifact unchanged condition_combinations.csv,True
+prior artifact unchanged diagnostic_metadata.json,True
+prior artifact unchanged entry_delay_summary.csv,True
+prior artifact unchanged environment_versions.json,True
+prior artifact unchanged equity_curve.csv,True
+prior artifact unchanged exit_giveback_summary.csv,True
+prior artifact unchanged figure_metadata.json,True
+prior artifact unchanged figure_validation.log,True
+prior artifact unchanged long_hold_low_contribution.csv,True
+prior artifact unchanged monthly_performance.csv,True
+prior artifact unchanged per_bar_conditions.csv.gz,True
+prior artifact unchanged README.md,True
+prior artifact unchanged report_build.log,True
+prior artifact unchanged run.log,True
+prior artifact unchanged run_attempt1.log,True
+prior artifact unchanged run_audit.py,True
+prior artifact unchanged signal_filter_summary.csv,True
+prior artifact unchanged signal_forward_returns.csv,True
+prior artifact unchanged task_request.md,True
+prior artifact unchanged trades_diagnostic.csv,True
+prior artifact unchanged validate_boundaries.py,True
+prior artifact unchanged verification.csv,True
+prior artifact unchanged step2_short_exit_ablation_2020_2023/annual_A.csv,True
+prior artifact unchanged step2_short_exit_ablation_2020_2023/annual_B.csv,True
+prior artifact unchanged step2_short_exit_ablation_2020_2023/annual_direction_comparison.png,True
+prior artifact unchanged step2_short_exit_ablation_2020_2023/artifact_manifest.json,True
+prior artifact unchanged step2_short_exit_ablation_2020_2023/audit_support.py,True
+prior artifact unchanged step2_short_exit_ablation_2020_2023/build_step2_report.py,True
+prior artifact unchanged step2_short_exit_ablation_2020_2023/comparison_period_direction.csv,True
+prior artifact unchanged step2_short_exit_ablation_2020_2023/diagnostic_metadata.json,True
+prior artifact unchanged step2_short_exit_ablation_2020_2023/environment_versions.json,True
+prior artifact unchanged step2_short_exit_ablation_2020_2023/equity_curve_A.csv,True
+prior artifact unchanged step2_short_exit_ablation_2020_2023/equity_curve_B.csv,True
+prior artifact unchanged step2_short_exit_ablation_2020_2023/ETH_KalmanMomentum_V18C3_TwoConfirm.py,True
+prior artifact unchanged step2_short_exit_ablation_2020_2023/exit_type_comparison.csv,True
+prior artifact unchanged step2_short_exit_ablation_2020_2023/figure_metadata.json,True
+prior artifact unchanged step2_short_exit_ablation_2020_2023/matched_entry_comparison.csv,True
+prior artifact unchanged step2_short_exit_ablation_2020_2023/monthly_A.csv,True
+prior artifact unchanged step2_short_exit_ablation_2020_2023/monthly_B.csv,True
+prior artifact unchanged step2_short_exit_ablation_2020_2023/monthly_comparison.csv,True
+prior artifact unchanged step2_short_exit_ablation_2020_2023/monthly_plan_A.csv,True
+prior artifact unchanged step2_short_exit_ablation_2020_2023/monthly_plan_B.csv,True
+prior artifact unchanged step2_short_exit_ablation_2020_2023/ohlcv_closed_pre2024.feather,True
+prior artifact unchanged step2_short_exit_ablation_2020_2023/original_registration.json,True
+prior artifact unchanged step2_short_exit_ablation_2020_2023/README.md,True
+prior artifact unchanged step2_short_exit_ablation_2020_2023/reference_independent_zero_slip.py,True
+prior artifact unchanged step2_short_exit_ablation_2020_2023/reference_replay.py,True
+prior artifact unchanged step2_short_exit_ablation_2020_2023/report_build.log,True
+prior artifact unchanged step2_short_exit_ablation_2020_2023/run.log,True
+prior artifact unchanged step2_short_exit_ablation_2020_2023/run_audit.py,True
+prior artifact unchanged step2_short_exit_ablation_2020_2023/run_initial.log,True
+prior artifact unchanged step2_short_exit_ablation_2020_2023/run_step2.py,True
+prior artifact unchanged step2_short_exit_ablation_2020_2023/selected_models_30.json,True
+prior artifact unchanged step2_short_exit_ablation_2020_2023/short_exit_timing.csv,True
+prior artifact unchanged step2_short_exit_ablation_2020_2023/short_exit_timing_details.csv,True
+prior artifact unchanged step2_short_exit_ablation_2020_2023/step2_comparison.png,True
+prior artifact unchanged step2_short_exit_ablation_2020_2023/step2_report.md,True
+prior artifact unchanged step2_short_exit_ablation_2020_2023/strategy_identity.json,True
+prior artifact unchanged step2_short_exit_ablation_2020_2023/trades_A_baseline.csv,True
+prior artifact unchanged step2_short_exit_ablation_2020_2023/trades_B_sign_exit.csv,True
+prior artifact unchanged step2_short_exit_ablation_2020_2023/validate_step2.py,True
+prior artifact unchanged step2_short_exit_ablation_2020_2023/validation.log,True
+prior artifact unchanged step2_short_exit_ablation_2020_2023/verification.csv,True
+prior artifact unchanged inputs/audit_support.py,True
+prior artifact unchanged inputs/ETH_KalmanMomentum_V18C3_TwoConfirm.py,True
+prior artifact unchanged inputs/ohlcv_closed_pre2024.feather,True
+prior artifact unchanged inputs/original_registration.json,True
+prior artifact unchanged inputs/reference_independent_zero_slip.py,True
+prior artifact unchanged inputs/reference_replay.py,True
+prior artifact unchanged inputs/selected_models_30.json,True
+prior artifact unchanged inputs/strategy_identity.json,True
+v19_step1_baseline_audit_2020_2023 all manifest artifacts unchanged,True
+v19_step3_robustness_checkout all manifest artifacts unchanged,True
+step2_short_exit_ablation_2020_2023 all manifest artifacts unchanged,True
+common positive negative equal counts,True
+common PNL advantage equals paired components,True
+paired deletion top5,True
+paired deletion top10,True
+paired deletion top20,True
+paired deletion top5pct_of238,True
+paired deletion top10pct_of238,True
+paired deletion top20pct_of238,True
+paired deletion top5pct_of58,True
+paired deletion top10pct_of58,True
+paired deletion top20pct_of58,True
+40000 total bootstrap draws,True
+block28 independent literal paired first draw,True
+block28 no sampled index outside allowed data,True
+block28 percentile and fraction long,True
+block28 percentile and fraction short,True
+block28 percentile and fraction combined,True
+block56 independent literal paired first draw,True
+block56 no sampled index outside allowed data,True
+block56 percentile and fraction long,True
+block56 percentile and fraction short,True
+block56 percentile and fraction combined,True
+all444 windows retained,True
+window count annual,True
+window count quarterly,True
+window count monthly,True
+window count rolling6m,True
+window count rolling12m,True
+A long annual marked reconciliation,True
+A long quarterly marked reconciliation,True
+A long monthly marked reconciliation,True
+A short annual marked reconciliation,True
+A short quarterly marked reconciliation,True
+A short monthly marked reconciliation,True
+A combined annual marked reconciliation,True
+A combined quarterly marked reconciliation,True
+A combined monthly marked reconciliation,True
+B long annual marked reconciliation,True
+B long quarterly marked reconciliation,True
+B long monthly marked reconciliation,True
+B short annual marked reconciliation,True
+B short quarterly marked reconciliation,True
+B short monthly marked reconciliation,True
+B combined annual marked reconciliation,True
+B combined quarterly marked reconciliation,True
+B combined monthly marked reconciliation,True
+only three declared cost scenarios,True
+fees and slippage proportional only,True
+cost1.0 A long PNL/DD/trades,True
+cost1.0 A short PNL/DD/trades,True
+cost1.0 A combined PNL/DD/trades,True
+cost1.0 B long PNL/DD/trades,True
+cost1.0 B short PNL/DD/trades,True
+cost1.0 B combined PNL/DD/trades,True
+cost1.5 A long PNL/DD/trades,True
+cost1.5 A short PNL/DD/trades,True
+cost1.5 A combined PNL/DD/trades,True
+cost1.5 B long PNL/DD/trades,True
+cost1.5 B short PNL/DD/trades,True
+cost1.5 B combined PNL/DD/trades,True
+cost2.0 A long PNL/DD/trades,True
+cost2.0 A short PNL/DD/trades,True
+cost2.0 A combined PNL/DD/trades,True
+cost2.0 B long PNL/DD/trades,True
+cost2.0 B short PNL/DD/trades,True
+cost2.0 B combined PNL/DD/trades,True

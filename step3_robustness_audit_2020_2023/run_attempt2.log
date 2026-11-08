@@ -1,0 +1,28 @@
+PASS selected model matches historical frozen model unfiltered_long
+PASS selected model matches historical frozen model unfiltered_short
+PASS original anchors unavailable explicitly recorded
+PASS A pre2024 curve only
+PASS A no censored trades
+PASS B pre2024 curve only
+PASS B no censored trades
+PASS 238 common normal short exits
+PASS 58 A-better common normal shorts
+PASS A/B daily aligned complete index
+PASS paired draw linearity block28
+PASS paired draw linearity block56
+PASS cost data complete pre2024
+PASS cost1.0 A independent orders
+Traceback (most recent call last):
+  File "E:\freqtrade\user_data\data\slope\research\v19_step1_baseline_audit_2020_2023\step3_robustness_audit_2020_2023\run_step3.py", line 224, in <module>
+    if __name__=='__main__':main()
+                            ~~~~^^
+  File "E:\freqtrade\user_data\data\slope\research\v19_step1_baseline_audit_2020_2023\step3_robustness_audit_2020_2023\run_step3.py", line 217, in main
+    provenance();dct=load_baseline();ranked=concentration(dct);daily=daily_curves(dct);w=windows(dct,daily);bs=bootstrap(daily);cost=cost_stress()
+                                                                                                                                     ~~~~~~~~~~~^^
+  File "E:\freqtrade\user_data\data\slope\research\v19_step1_baseline_audit_2020_2023\step3_robustness_audit_2020_2023\run_step3.py", line 189, in cost_stress
+    check(f'cost{multiple} {variant} independent equity',np.allclose(q[:,1],ic,rtol=0,atol=1e-11))
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\freqtrade\user_data\data\slope\research\v19_step1_baseline_audit_2020_2023\step3_robustness_audit_2020_2023\run_step3.py", line 19, in check
+    if not ok:raise RuntimeError('STOP '+n)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: STOP cost1.0 A independent equity

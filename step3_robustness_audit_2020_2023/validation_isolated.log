@@ -1,0 +1,70 @@
+PASS v19_step3_robustness_checkout all manifest artifacts unchanged
+PASS step2_short_exit_ablation_2020_2023 all manifest artifacts unchanged
+PASS common positive negative equal counts
+PASS common PNL advantage equals paired components
+PASS paired deletion top5
+PASS paired deletion top10
+PASS paired deletion top20
+PASS paired deletion top5pct_of238
+PASS paired deletion top10pct_of238
+PASS paired deletion top20pct_of238
+PASS paired deletion top5pct_of58
+PASS paired deletion top10pct_of58
+PASS paired deletion top20pct_of58
+PASS 40000 total bootstrap draws
+PASS block28 independent literal paired first draw
+PASS block28 no sampled index outside allowed data
+PASS block28 percentile and fraction long
+PASS block28 percentile and fraction short
+PASS block28 percentile and fraction combined
+PASS block56 independent literal paired first draw
+PASS block56 no sampled index outside allowed data
+PASS block56 percentile and fraction long
+PASS block56 percentile and fraction short
+PASS block56 percentile and fraction combined
+PASS all444 windows retained
+PASS window count annual
+PASS window count quarterly
+PASS window count monthly
+PASS window count rolling6m
+PASS window count rolling12m
+PASS A long annual marked reconciliation
+PASS A long quarterly marked reconciliation
+PASS A long monthly marked reconciliation
+PASS A short annual marked reconciliation
+PASS A short quarterly marked reconciliation
+PASS A short monthly marked reconciliation
+PASS A combined annual marked reconciliation
+PASS A combined quarterly marked reconciliation
+PASS A combined monthly marked reconciliation
+PASS B long annual marked reconciliation
+PASS B long quarterly marked reconciliation
+PASS B long monthly marked reconciliation
+PASS B short annual marked reconciliation
+PASS B short quarterly marked reconciliation
+PASS B short monthly marked reconciliation
+PASS B combined annual marked reconciliation
+PASS B combined quarterly marked reconciliation
+PASS B combined monthly marked reconciliation
+PASS only three declared cost scenarios
+PASS fees and slippage proportional only
+PASS cost1.0 A long PNL/DD/trades
+PASS cost1.0 A short PNL/DD/trades
+PASS cost1.0 A combined PNL/DD/trades
+PASS cost1.0 B long PNL/DD/trades
+PASS cost1.0 B short PNL/DD/trades
+PASS cost1.0 B combined PNL/DD/trades
+PASS cost1.5 A long PNL/DD/trades
+PASS cost1.5 A short PNL/DD/trades
+PASS cost1.5 A combined PNL/DD/trades
+PASS cost1.5 B long PNL/DD/trades
+PASS cost1.5 B short PNL/DD/trades
+PASS cost1.5 B combined PNL/DD/trades
+PASS cost2.0 A long PNL/DD/trades
+PASS cost2.0 A short PNL/DD/trades
+PASS cost2.0 A combined PNL/DD/trades
+PASS cost2.0 B long PNL/DD/trades
+PASS cost2.0 B short PNL/DD/trades
+PASS cost2.0 B combined PNL/DD/trades
+PASS all main checks already passed
+VALIDATED 69 checks; total 189

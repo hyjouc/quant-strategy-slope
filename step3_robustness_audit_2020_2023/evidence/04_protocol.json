@@ -1,0 +1,16 @@
+{
+  "establish": "2020-22 core and quality models",
+  "validation": "2023-24 quality recipe only",
+  "test": "2025 fixed",
+  "modifications": [
+    "C3 mesh .001, all other axes .01",
+    "C3 bands span>=.001, at least two adjacent .001 points",
+    "C3 final neighbors remain physical +/- .01; preserve three decimals of center",
+    "original final shortlist ranking followed by broad C3 eligibility, explicit fallback"
+  ],
+  "unchanged": "original3starts,20rounds,30/75minimums,4direction cases,DDsoft penalty,Ridge caps,quality selection,all trading and accounting",
+  "min_band_rationale": "user correction: actual band span .001, distinct from C3 mesh .001 and final neighborhood +/-.01",
+  "no2026": true,
+  "formal_strategy_changed": false,
+  "warning": "historical exploratory variant, not identical optimizer nor untouched OOS"
+}

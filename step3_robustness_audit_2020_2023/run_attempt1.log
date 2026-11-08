@@ -1,0 +1,41 @@
+PASS selected model matches historical frozen model unfiltered_long
+PASS selected model matches historical frozen model unfiltered_short
+PASS original anchors unavailable explicitly recorded
+PASS A pre2024 curve only
+PASS A no censored trades
+PASS B pre2024 curve only
+PASS B no censored trades
+PASS 238 common normal short exits
+PASS 58 A-better common normal shorts
+PASS A/B daily aligned complete index
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python314\Lib\site-packages\pandas\core\arrays\datetimes.py", line 2870, in _infer_tz_from_endpoints
+    inferred_tz = timezones.infer_tzinfo(start, end)
+  File "pandas/_libs/tslibs/timezones.pyx", line 465, in pandas._libs.tslibs.timezones.infer_tzinfo
+AssertionError: Inputs must both have the same timezone, UTC != None
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "E:\freqtrade\user_data\data\slope\research\v19_step1_baseline_audit_2020_2023\step3_robustness_audit_2020_2023\run_step3.py", line 224, in <module>
+    if __name__=='__main__':main()
+                            ~~~~^^
+  File "E:\freqtrade\user_data\data\slope\research\v19_step1_baseline_audit_2020_2023\step3_robustness_audit_2020_2023\run_step3.py", line 217, in main
+    provenance();dct=load_baseline();ranked=concentration(dct);daily=daily_curves(dct);w=windows(dct,daily);bs=bootstrap(daily);cost=cost_stress()
+                                                                                         ~~~~~~~^^^^^^^^^^^
+  File "E:\freqtrade\user_data\data\slope\research\v19_step1_baseline_audit_2020_2023\step3_robustness_audit_2020_2023\run_step3.py", line 119, in windows
+    for end in pd.date_range(pd.Timestamp('2020-01-01',tz='UTC')+pd.DateOffset(months=n),'2024-01-01',freq='MS'):
+               ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python314\Lib\site-packages\pandas\core\indexes\datetimes.py", line 1491, in date_range
+    dtarr = DatetimeArray._generate_range(
+        start=start,
+    ...<7 lines>...
+        **kwargs,
+    )
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python314\Lib\site-packages\pandas\core\arrays\datetimes.py", line 461, in _generate_range
+    tz = _infer_tz_from_endpoints(start, end, tz)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python314\Lib\site-packages\pandas\core\arrays\datetimes.py", line 2873, in _infer_tz_from_endpoints
+    raise TypeError(
+        "Start and end cannot both be tz-aware with different timezones"
+    ) from err
+TypeError: Start and end cannot both be tz-aware with different timezones

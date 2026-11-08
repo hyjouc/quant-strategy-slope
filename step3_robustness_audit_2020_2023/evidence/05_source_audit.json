@@ -1,0 +1,123 @@
+{
+  "valid_three_decimals": true,
+  "other_axis_preserves_C3": true,
+  "neighbors_physical_001": true,
+  "single_tick_rejected": true,
+  "two_adjacent_ticks_accepted": true,
+  "gapped_ticks_rejected": true,
+  "completed_anchor_count": 8,
+  "anchors": [
+    {
+      "path": "E:\\freqtrade\\user_data\\data\\slope\\parameter_selection_lab_20261020\\second_accel\\v18_c3_span001\\anchors\\30\\filtered_long.json",
+      "parameters": [
+        1.12,
+        0.0,
+        0.379,
+        2,
+        0.46,
+        1.56,
+        4.25
+      ],
+      "qualified": true,
+      "fallback": false
+    },
+    {
+      "path": "E:\\freqtrade\\user_data\\data\\slope\\parameter_selection_lab_20261020\\second_accel\\v18_c3_span001\\anchors\\30\\filtered_short.json",
+      "parameters": [
+        0.7,
+        -0.02,
+        0.466,
+        2,
+        0.38,
+        1.54,
+        4.94
+      ],
+      "qualified": true,
+      "fallback": false
+    },
+    {
+      "path": "E:\\freqtrade\\user_data\\data\\slope\\parameter_selection_lab_20261020\\second_accel\\v18_c3_span001\\anchors\\30\\unfiltered_long.json",
+      "parameters": [
+        0.69,
+        0.21,
+        0.34,
+        2,
+        0.0,
+        1.49,
+        3.87
+      ],
+      "qualified": true,
+      "fallback": false
+    },
+    {
+      "path": "E:\\freqtrade\\user_data\\data\\slope\\parameter_selection_lab_20261020\\second_accel\\v18_c3_span001\\anchors\\30\\unfiltered_short.json",
+      "parameters": [
+        0.76,
+        0.49,
+        0.505,
+        2,
+        0.38,
+        1.43,
+        4.07
+      ],
+      "qualified": true,
+      "fallback": false
+    },
+    {
+      "path": "E:\\freqtrade\\user_data\\data\\slope\\parameter_selection_lab_20261020\\second_accel\\v18_c3_span001\\anchors\\75\\filtered_long.json",
+      "parameters": [
+        0.21,
+        -0.39,
+        0.001,
+        2,
+        0.54,
+        0.44,
+        4.94
+      ],
+      "qualified": true,
+      "fallback": false
+    },
+    {
+      "path": "E:\\freqtrade\\user_data\\data\\slope\\parameter_selection_lab_20261020\\second_accel\\v18_c3_span001\\anchors\\75\\filtered_short.json",
+      "parameters": [
+        0.04,
+        -0.13,
+        0.477,
+        2,
+        0.01,
+        1.49,
+        4.97
+      ],
+      "qualified": true,
+      "fallback": false
+    },
+    {
+      "path": "E:\\freqtrade\\user_data\\data\\slope\\parameter_selection_lab_20261020\\second_accel\\v18_c3_span001\\anchors\\75\\unfiltered_long.json",
+      "parameters": [
+        0.69,
+        0.21,
+        0.34,
+        2,
+        0.0,
+        1.49,
+        3.87
+      ],
+      "qualified": true,
+      "fallback": false
+    },
+    {
+      "path": "E:\\freqtrade\\user_data\\data\\slope\\parameter_selection_lab_20261020\\second_accel\\v18_c3_span001\\anchors\\75\\unfiltered_short.json",
+      "parameters": [
+        0.76,
+        0.49,
+        0.505,
+        2,
+        0.38,
+        1.43,
+        4.07
+      ],
+      "qualified": true,
+      "fallback": false
+    }
+  ]
+}
