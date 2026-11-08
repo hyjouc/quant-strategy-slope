@@ -1,0 +1,30 @@
+PASS delivered plans differ only short C2
+PASS Ridge and source input hashes unchanged
+PASS source contains only allowed closed 2020-2023 bars
+PASS A all actual entries original scores S features and two monthly confirmations
+PASS A continuous single position no overlaps
+PASS A all trade sources precede actual next open
+PASS A long monthly PNL equals terminal curve and trades
+PASS A long monthly closed counts sum
+PASS A short monthly PNL equals terminal curve and trades
+PASS A short monthly closed counts sum
+PASS A combined monthly PNL equals terminal curve and trades
+PASS A combined monthly closed counts sum
+PASS A long plus short full curve equals combined
+PASS B all actual entries original scores S features and two monthly confirmations
+PASS B continuous single position no overlaps
+PASS B all trade sources precede actual next open
+PASS B long monthly PNL equals terminal curve and trades
+PASS B long monthly closed counts sum
+PASS B short monthly PNL equals terminal curve and trades
+PASS B short monthly closed counts sum
+PASS B combined monthly PNL equals terminal curve and trades
+PASS B combined monthly closed counts sum
+PASS B long plus short full curve equals combined
+PASS common entries identical exits fills; PNL within 1e-9 USDT floating precision
+PASS trade partitions and unique PNL bridge
+PASS 24 candidates partition into 15 actual short entries and 9 held
+PASS all 15 direct new shorts included in B-only ledger
+PASS every lost A entry mapped to a B occupying trade
+PASS all previous artifact manifests unchanged
+REPORT AND FIGURES COMPLETE

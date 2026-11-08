@@ -1,0 +1,98 @@
+﻿check,passed
+Step3 expected base is ancestor,True
+expected hash ohlcv_closed_pre2024.feather,True
+Step2 same hash ohlcv_closed_pre2024.feather,True
+expected hash selected_models_30.json,True
+Step2 same hash selected_models_30.json,True
+expected hash ETH_KalmanMomentum_V18C3_TwoConfirm.py,True
+Step2 same hash ETH_KalmanMomentum_V18C3_TwoConfirm.py,True
+expected hash reference_replay.py,True
+Step2 same hash reference_replay.py,True
+expected hash reference_independent_zero_slip.py,True
+Step2 same hash reference_independent_zero_slip.py,True
+unchanged Step1 Step2 Step3 artifacts before experiment,True
+strict closed-bar range 140255,True
+unique contiguous 15m input,True
+4h availability timestamps causal,True
+A zero_slip independent order sequence,True
+A zero_slip independent entry fills,True
+A zero_slip independent exit fills,True
+A zero_slip independent full equity,True
+A registered_cost independent order sequence,True
+A registered_cost independent entry fills,True
+A registered_cost independent exit fills,True
+A registered_cost independent full equity,True
+A Step1 exact entry_time,True
+A Step1 exact exit_bar_open_time,True
+A Step1 exact direction,True
+A Step1 exact exit_reason,True
+A Step1 exact status,True
+A Step1 fills PNL entry_price,True
+A Step1 fills PNL actual_exit_price,True
+A Step1 fills PNL net_realized_pnl,True
+A Step1 full directional curve,True
+A Step1 710 closed zero open,True
+A Step1 6954.3495 total,True
+A Step1 2023 -94.9795,True
+signal gate added technical 1419,True
+signal gate Ridge rejects 1379,True
+signal gate added full 40,True
+signal gate added two-confirm candidate bars 24,True
+Step3 counts agree with explicit signal reconstruction,True
+B changes only short plan C2,True
+all original exits remain momentum short and sign long,True
+B zero_slip independent order sequence,True
+B zero_slip independent entry fills,True
+B zero_slip independent exit fills,True
+B zero_slip independent full equity,True
+B registered_cost independent order sequence,True
+B registered_cost independent entry fills,True
+B registered_cost independent exit fills,True
+B registered_cost independent full equity,True
+A diagnostic curve matches replay,True
+A actual entry no earlier than formal,True
+A no future exit,True
+A PNL and last curve reconcile,True
+B diagnostic curve matches replay,True
+B actual entry no earlier than formal,True
+B no future exit,True
+B PNL and last curve reconcile,True
+shared entries same exit_bar_open_time,True
+shared entries same exit_reason,True
+shared entries same status,True
+shared entries same exit_time_precision,True
+shared entries identical entry_price,True
+shared entries identical actual_exit_price,True
+shared entries identical net_realized_pnl,True
+matched plus uniques partitions A B,True
+newly confirmed candidate conversion accounted,True
+all original artifacts unchanged after experiment,True
+delivery:delivered plans differ only short C2,True
+delivery:Ridge and source input hashes unchanged,True
+delivery:source contains only allowed closed 2020-2023 bars,True
+delivery:A all actual entries original scores S features and two monthly confirmations,True
+delivery:A continuous single position no overlaps,True
+delivery:A all trade sources precede actual next open,True
+delivery:A long monthly PNL equals terminal curve and trades,True
+delivery:A long monthly closed counts sum,True
+delivery:A short monthly PNL equals terminal curve and trades,True
+delivery:A short monthly closed counts sum,True
+delivery:A combined monthly PNL equals terminal curve and trades,True
+delivery:A combined monthly closed counts sum,True
+delivery:A long plus short full curve equals combined,True
+delivery:B all actual entries original scores S features and two monthly confirmations,True
+delivery:B continuous single position no overlaps,True
+delivery:B all trade sources precede actual next open,True
+delivery:B long monthly PNL equals terminal curve and trades,True
+delivery:B long monthly closed counts sum,True
+delivery:B short monthly PNL equals terminal curve and trades,True
+delivery:B short monthly closed counts sum,True
+delivery:B combined monthly PNL equals terminal curve and trades,True
+delivery:B combined monthly closed counts sum,True
+delivery:B long plus short full curve equals combined,True
+delivery:common entries identical exits fills; PNL within 1e-9 USDT floating precision,True
+delivery:trade partitions and unique PNL bridge,True
+delivery:24 candidates partition into 15 actual short entries and 9 held,True
+delivery:all 15 direct new shorts included in B-only ledger,True
+delivery:every lost A entry mapped to a B occupying trade,True
+delivery:all previous artifact manifests unchanged,True

@@ -1,0 +1,9 @@
+{
+  "reviewed_figures": 8,
+  "formats": [
+    "png",
+    "svg"
+  ],
+  "review": "All eight PNG figures inspected. Unique-trade panel dates changed to year ticks and common axes. No clipping in final figures; A/B styles redundant; monthly chart includes all 48 months; funnel labels mixed bar/trade units explicitly. Descriptive only, no uncertainty inference.",
+  "failed_validation_attempt": "delivery_validation_attempt1.log preserves an overly strict bit-exact PNL check; observed 1.78e-12 USDT floating arithmetic difference; final tolerance 1e-9 USDT, original orders and fills equal."
+}

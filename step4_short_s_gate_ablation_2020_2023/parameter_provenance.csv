@@ -1,0 +1,29 @@
+﻿variant,direction,parameter,registered_value,execution_value,source,meaning
+A,long,C1,0.69,0.69,original frozen model core_parameters; Step2 plan_for(A),frozen
+A,long,C2,0.21,0.21,original frozen model core_parameters; Step2 plan_for(A),frozen
+A,long,C3,0.34,0.34,original frozen model core_parameters; Step2 plan_for(A),frozen
+A,long,C4,2.0,2.0,original frozen model core_parameters; Step2 plan_for(A),frozen
+A,long,exit_value,0.0,0.0,original frozen model core_parameters; Step2 plan_for(A),frozen
+A,long,early_loss_pct,1.49,1.49,original frozen model core_parameters; Step2 plan_for(A),frozen
+A,long,stop_pct,3.87,3.87,original frozen model core_parameters; Step2 plan_for(A),frozen
+A,short,C1,0.76,0.76,original frozen model core_parameters; Step2 plan_for(A),frozen
+A,short,C2,0.49,0.49,original frozen model core_parameters; Step2 plan_for(A),frozen
+A,short,C3,0.505,0.505,original frozen model core_parameters; Step2 plan_for(A),frozen
+A,short,C4,2.0,2.0,original frozen model core_parameters; Step2 plan_for(A),frozen
+A,short,exit_value,0.38,0.38,original frozen model core_parameters; Step2 plan_for(A),frozen
+A,short,early_loss_pct,1.43,1.43,original frozen model core_parameters; Step2 plan_for(A),frozen
+A,short,stop_pct,4.07,4.07,original frozen model core_parameters; Step2 plan_for(A),frozen
+B,long,C1,0.69,0.69,original frozen model core_parameters; Step2 plan_for(A),frozen
+B,long,C2,0.21,0.21,original frozen model core_parameters; Step2 plan_for(A),frozen
+B,long,C3,0.34,0.34,original frozen model core_parameters; Step2 plan_for(A),frozen
+B,long,C4,2.0,2.0,original frozen model core_parameters; Step2 plan_for(A),frozen
+B,long,exit_value,0.0,0.0,original frozen model core_parameters; Step2 plan_for(A),frozen
+B,long,early_loss_pct,1.49,1.49,original frozen model core_parameters; Step2 plan_for(A),frozen
+B,long,stop_pct,3.87,3.87,original frozen model core_parameters; Step2 plan_for(A),frozen
+B,short,C1,0.76,0.76,original frozen model core_parameters; Step2 plan_for(A),frozen
+B,short,C2,0.49,-inf,original frozen model core_parameters; Step2 plan_for(A),"bypass sentinel, not optimized threshold"
+B,short,C3,0.505,0.505,original frozen model core_parameters; Step2 plan_for(A),frozen
+B,short,C4,2.0,2.0,original frozen model core_parameters; Step2 plan_for(A),frozen
+B,short,exit_value,0.38,0.38,original frozen model core_parameters; Step2 plan_for(A),frozen
+B,short,early_loss_pct,1.43,1.43,original frozen model core_parameters; Step2 plan_for(A),frozen
+B,short,stop_pct,4.07,4.07,original frozen model core_parameters; Step2 plan_for(A),frozen

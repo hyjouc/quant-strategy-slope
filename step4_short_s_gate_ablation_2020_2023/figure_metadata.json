@@ -1,0 +1,122 @@
+[
+  {
+    "name": "combined_equity",
+    "description": "A/B combined marked equity; baseline 1000 USDT",
+    "source": "equity_curve_A/B.csv",
+    "pixels": [
+      1800,
+      720
+    ],
+    "dpi": [
+      180.00979999999998,
+      180.00979999999998
+    ],
+    "transform": "No smoothing; complete observations or explicit table aggregation",
+    "uncertainty": "None; descriptive historical census, no bootstrap"
+  },
+  {
+    "name": "long_equity",
+    "description": "A/B long marked equity; baseline 1000 USDT",
+    "source": "equity_curve_A/B.csv",
+    "pixels": [
+      1800,
+      720
+    ],
+    "dpi": [
+      180.00979999999998,
+      180.00979999999998
+    ],
+    "transform": "No smoothing; complete observations or explicit table aggregation",
+    "uncertainty": "None; descriptive historical census, no bootstrap"
+  },
+  {
+    "name": "short_equity",
+    "description": "A/B short marked equity; baseline 1000 USDT",
+    "source": "equity_curve_A/B.csv",
+    "pixels": [
+      1800,
+      720
+    ],
+    "dpi": [
+      180.00979999999998,
+      180.00979999999998
+    ],
+    "transform": "No smoothing; complete observations or explicit table aggregation",
+    "uncertainty": "None; descriptive historical census, no bootstrap"
+  },
+  {
+    "name": "combined_drawdown",
+    "description": "A/B all 15m marked drawdowns, identical worst drawdown",
+    "source": "equity_curve_A/B.csv",
+    "pixels": [
+      1800,
+      720
+    ],
+    "dpi": [
+      180.00979999999998,
+      180.00979999999998
+    ],
+    "transform": "No smoothing; complete observations or explicit table aggregation",
+    "uncertainty": "None; descriptive historical census, no bootstrap"
+  },
+  {
+    "name": "annual_returns",
+    "description": "Yearly marked PNL per direction, continuous portfolio",
+    "source": "annual_comparison.csv",
+    "pixels": [
+      2160,
+      720
+    ],
+    "dpi": [
+      180.00979999999998,
+      180.00979999999998
+    ],
+    "transform": "No smoothing; complete observations or explicit table aggregation",
+    "uncertainty": "None; descriptive historical census, no bootstrap"
+  },
+  {
+    "name": "monthly_differences",
+    "description": "All 48 monthly PNL differences for each direction",
+    "source": "monthly_comparison.csv",
+    "pixels": [
+      2160,
+      1440
+    ],
+    "dpi": [
+      180.00979999999998,
+      180.00979999999998
+    ],
+    "transform": "No smoothing; complete observations or explicit table aggregation",
+    "uncertainty": "None; descriptive historical census, no bootstrap"
+  },
+  {
+    "name": "candidate_funnel",
+    "description": "Mixed-unit stages explicitly labeled; 24 signals are not trades",
+    "source": "candidate_flow.csv",
+    "pixels": [
+      1800,
+      720
+    ],
+    "dpi": [
+      180.00979999999998,
+      180.00979999999998
+    ],
+    "transform": "No smoothing; complete observations or explicit table aggregation",
+    "uncertainty": "None; descriptive historical census, no bootstrap"
+  },
+  {
+    "name": "unique_trade_distribution",
+    "description": "Every A-only/B-only trade plotted; entry dates, no bins",
+    "source": "A_only_trades.csv; B_only_trades.csv",
+    "pixels": [
+      2160,
+      720
+    ],
+    "dpi": [
+      180.00979999999998,
+      180.00979999999998
+    ],
+    "transform": "No smoothing; complete observations or explicit table aggregation",
+    "uncertainty": "None; descriptive historical census, no bootstrap"
+  }
+]

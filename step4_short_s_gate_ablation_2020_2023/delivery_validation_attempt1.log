@@ -1,0 +1,34 @@
+PASS delivered plans differ only short C2
+PASS Ridge and source input hashes unchanged
+PASS source contains only allowed closed 2020-2023 bars
+PASS A all actual entries original scores S features and two monthly confirmations
+PASS A continuous single position no overlaps
+PASS A all trade sources precede actual next open
+PASS A long monthly PNL equals terminal curve and trades
+PASS A long monthly closed counts sum
+PASS A short monthly PNL equals terminal curve and trades
+PASS A short monthly closed counts sum
+PASS A combined monthly PNL equals terminal curve and trades
+PASS A combined monthly closed counts sum
+PASS A long plus short full curve equals combined
+PASS B all actual entries original scores S features and two monthly confirmations
+PASS B continuous single position no overlaps
+PASS B all trade sources precede actual next open
+PASS B long monthly PNL equals terminal curve and trades
+PASS B long monthly closed counts sum
+PASS B short monthly PNL equals terminal curve and trades
+PASS B short monthly closed counts sum
+PASS B combined monthly PNL equals terminal curve and trades
+PASS B combined monthly closed counts sum
+PASS B long plus short full curve equals combined
+Traceback (most recent call last):
+  File "E:\freqtrade\user_data\data\slope\research\v19_step1_baseline_audit_2020_2023\step4_short_s_gate_ablation_2020_2023\finalize_step4.py", line 193, in <module>
+    if __name__=='__main__':main()
+                            ~~~~^^
+  File "E:\freqtrade\user_data\data\slope\research\v19_step1_baseline_audit_2020_2023\step4_short_s_gate_ablation_2020_2023\finalize_step4.py", line 57, in main
+    ck('common entries have identical exit time reason fills and PNL',all(match[x+'_A'].equals(match[x+'_B']) for x in ['exit_bar_open_time','exit_reason','actual_exit_price','entry_price','net_realized_pnl']))
+    ~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\freqtrade\user_data\data\slope\research\v19_step1_baseline_audit_2020_2023\step4_short_s_gate_ablation_2020_2023\finalize_step4.py", line 28, in ck
+    checks.append({'check':n,'passed':bool(x)});assert bool(x),n
+                                                       ~~~~^^^
+AssertionError: common entries have identical exit time reason fills and PNL

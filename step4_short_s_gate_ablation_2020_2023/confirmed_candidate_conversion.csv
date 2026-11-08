@@ -1,0 +1,25 @@
+﻿signal_i,signal_close_time,hypothetical_entry_time,A_actual_entry,A_actual_trade_ids,A_blocked_by_occupancy,A_blocking_reasons,A_blocking_trade_ids,B_actual_entry,B_actual_trade_ids,B_blocked_by_occupancy,B_blocking_reasons,B_blocking_trade_ids
+7215,2020-03-16 04:00:00+00:00,2020-03-16 04:00:00+00:00,False,,False,,,True,29,False,,
+7352,2020-03-17 14:15:00+00:00,2020-03-17 14:15:00+00:00,False,,True,held_during_confirmation,30,False,,True,held_during_confirmation,30
+7383,2020-03-17 22:00:00+00:00,2020-03-17 22:00:00+00:00,False,,False,,,True,31,False,,
+7384,2020-03-17 22:15:00+00:00,2020-03-17 22:15:00+00:00,False,,False,,,False,,True,held_during_confirmation,31
+7392,2020-03-18 00:15:00+00:00,2020-03-18 00:15:00+00:00,False,,False,,,False,,True,held_during_confirmation,31
+48787,2021-05-23 05:00:00+00:00,2021-05-23 05:00:00+00:00,False,,False,,,True,226,False,,
+51956,2021-06-25 05:15:00+00:00,2021-06-25 05:15:00+00:00,False,,False,,,True,253,False,,
+70909,2022-01-08 15:30:00+00:00,2022-01-08 15:30:00+00:00,False,,False,,,True,372,False,,
+70910,2022-01-08 15:45:00+00:00,2022-01-08 15:45:00+00:00,False,,False,,,False,,True,held_during_confirmation,372
+72664,2022-01-26 22:15:00+00:00,2022-01-26 22:15:00+00:00,False,,False,,,True,385,False,,
+72665,2022-01-26 22:30:00+00:00,2022-01-26 22:30:00+00:00,False,,False,,,False,,True,held_during_confirmation,385
+82915,2022-05-13 17:00:00+00:00,2022-05-13 17:00:00+00:00,False,,False,,,True,455,False,,
+84393,2022-05-29 02:30:00+00:00,2022-05-29 02:30:00+00:00,False,,False,,,True,467,False,,
+85828,2022-06-13 01:15:00+00:00,2022-06-13 01:15:00+00:00,False,,False,,,True,477,False,,
+86007,2022-06-14 22:00:00+00:00,2022-06-14 22:00:00+00:00,False,,False,,,True,478,False,,
+86008,2022-06-14 22:15:00+00:00,2022-06-14 22:15:00+00:00,False,,False,,,False,,True,held_during_confirmation,478
+86149,2022-06-16 09:30:00+00:00,2022-06-16 09:30:00+00:00,False,,False,,,True,481,False,,
+86150,2022-06-16 09:45:00+00:00,2022-06-16 09:45:00+00:00,False,,False,,,False,,True,held_during_confirmation,481
+86151,2022-06-16 10:00:00+00:00,2022-06-16 10:00:00+00:00,False,,False,,,False,,True,held_during_confirmation,481
+86152,2022-06-16 10:15:00+00:00,2022-06-16 10:15:00+00:00,False,,False,,,False,,True,held_during_confirmation,481
+86586,2022-06-20 22:45:00+00:00,2022-06-20 22:45:00+00:00,False,,False,,,True,485,False,,
+86673,2022-06-21 20:30:00+00:00,2022-06-21 20:30:00+00:00,False,,False,,,True,486,False,,
+93172,2022-08-28 13:15:00+00:00,2022-08-28 13:15:00+00:00,False,,False,,,True,522,False,,
+95801,2022-09-24 22:30:00+00:00,2022-09-24 22:30:00+00:00,False,,False,,,True,540,False,,

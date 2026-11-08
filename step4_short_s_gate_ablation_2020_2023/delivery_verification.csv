@@ -1,0 +1,30 @@
+﻿check,passed
+delivered plans differ only short C2,True
+Ridge and source input hashes unchanged,True
+source contains only allowed closed 2020-2023 bars,True
+A all actual entries original scores S features and two monthly confirmations,True
+A continuous single position no overlaps,True
+A all trade sources precede actual next open,True
+A long monthly PNL equals terminal curve and trades,True
+A long monthly closed counts sum,True
+A short monthly PNL equals terminal curve and trades,True
+A short monthly closed counts sum,True
+A combined monthly PNL equals terminal curve and trades,True
+A combined monthly closed counts sum,True
+A long plus short full curve equals combined,True
+B all actual entries original scores S features and two monthly confirmations,True
+B continuous single position no overlaps,True
+B all trade sources precede actual next open,True
+B long monthly PNL equals terminal curve and trades,True
+B long monthly closed counts sum,True
+B short monthly PNL equals terminal curve and trades,True
+B short monthly closed counts sum,True
+B combined monthly PNL equals terminal curve and trades,True
+B combined monthly closed counts sum,True
+B long plus short full curve equals combined,True
+common entries identical exits fills; PNL within 1e-9 USDT floating precision,True
+trade partitions and unique PNL bridge,True
+24 candidates partition into 15 actual short entries and 9 held,True
+all 15 direct new shorts included in B-only ledger,True
+every lost A entry mapped to a B occupying trade,True
+all previous artifact manifests unchanged,True
