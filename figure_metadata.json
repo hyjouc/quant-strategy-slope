@@ -1,0 +1,35 @@
+{
+  "A_T_relationship.png": {
+    "pixels": [
+      2080,
+      800
+    ],
+    "dpi": [
+      159.9946,
+      159.9946
+    ],
+    "visual_review": "reviewed for readable labels, unclipped legends and preservation of all data"
+  },
+  "diagnostic_distributions.png": {
+    "pixels": [
+      2080,
+      1920
+    ],
+    "dpi": [
+      159.9946,
+      159.9946
+    ],
+    "visual_review": "reviewed for readable labels, unclipped legends and preservation of all data"
+  },
+  "timing_and_entry_cost.png": {
+    "pixels": [
+      2240,
+      720
+    ],
+    "dpi": [
+      159.9946,
+      159.9946
+    ],
+    "visual_review": "reviewed for readable labels, unclipped legends and preservation of all data"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "strategy_class": "ETH_KalmanMomentum_V18C3_TwoConfirm",
+  "previous_class": "V18_C3_001_30_Baseline",
+  "frozen_version": "V18_C3_001_30_20261021",
+  "variant": "baseline",
+  "rename_only": true,
+  "logic_ast_unchanged": true,
+  "backtest_archives_keep_original_identity": true
+}

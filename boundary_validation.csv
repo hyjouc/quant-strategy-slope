@@ -1,0 +1,18 @@
+check,passed
+source and model parameters long,True
+source and model parameters short,True
+all 58 stop-touch bars excluded,True
+unknown intrabar exit time is missing,True
+no complete bars yields missing MFE,True
+complete held bars match actual exposure,True
+signal timestamps all closed before cutoff,True
+expected signal rows,True
+quality partition reconciles technical counts,True
+monthly PNL reconciles long,True
+monthly PNL reconciles short,True
+monthly PNL reconciles combined,True
+prefix preserves open trade rather than forced exit,True
+open trade has no invented exit or realized outcome,True
+prefix mark only uses last complete close,True
+open marked equity reconciles,True
+pending entry outside prefix is not an actual trade,True

@@ -1,0 +1,19 @@
+PASS source and model parameters long
+PASS source and model parameters short
+PASS all 58 stop-touch bars excluded
+PASS unknown intrabar exit time is missing
+PASS no complete bars yields missing MFE
+PASS complete held bars match actual exposure
+PASS signal timestamps all closed before cutoff
+PASS expected signal rows
+PASS quality partition reconciles technical counts
+PASS monthly PNL reconciles long
+PASS monthly PNL reconciles short
+PASS monthly PNL reconciles combined
+PASS trade_1_two_confirm
+PASS prefix preserves open trade rather than forced exit
+PASS open trade has no invented exit or realized outcome
+PASS prefix mark only uses last complete close
+PASS open marked equity reconciles
+PASS pending entry outside prefix is not an actual trade
+Boundary validations passed 17
