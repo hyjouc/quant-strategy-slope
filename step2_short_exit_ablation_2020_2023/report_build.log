@@ -1,0 +1,8 @@
+B 没有明显优势，保留 A
+direction  A_net_profit_marked  B_net_profit_marked  B_minus_A_net_profit_marked  A_max_drawdown_currency  B_max_drawdown_currency
+     long          4766.563935          4664.573428                  -101.990508               683.259520               648.045597
+    short          2187.785516          1804.925806                  -382.859711               858.608635              1059.760137
+ combined          6954.349452          6469.499234                  -484.850218               815.535637               817.619849
+variant   n  mean_raw_delay_bars  median_raw_delay_bars  mean_full_delay_bars  median_full_delay_bars  mean_hold_hours  median_hold_hours  mean_MFE_pct  mean_MAE_pct  mean_giveback_pct  normal_net_pnl                        exit_reason_counts  B_minus_A_mean_raw_delay_bars
+      A 238            27.815126                    7.0             14.273109                     1.0        24.616597              20.00      5.889641     -1.296002           3.944456     8783.319290 early_loss=101; fixed_stop=26; normal=238                            NaN
+      B 263             1.456274                    1.0              1.456274                     1.0        17.647338              16.25      5.058075     -1.233339           3.411933     8132.966605  early_loss=94; fixed_stop=26; normal=263                     -26.358852

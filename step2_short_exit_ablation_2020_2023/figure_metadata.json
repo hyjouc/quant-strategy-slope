@@ -1,0 +1,24 @@
+{
+  "annual_direction_comparison.png": {
+    "pixels": [
+      2240,
+      640
+    ],
+    "dpi": [
+      159.9946,
+      159.9946
+    ],
+    "visual_review": "Reviewed axes, legends, all observations retained; descriptive internal research figures."
+  },
+  "step2_comparison.png": {
+    "pixels": [
+      2080,
+      1280
+    ],
+    "dpi": [
+      159.9946,
+      159.9946
+    ],
+    "visual_review": "Reviewed axes, legends, all observations retained; descriptive internal research figures."
+  }
+}

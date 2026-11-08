@@ -1,0 +1,26 @@
+PASS A all normal exits keep armed and exactly two completed reversal closes
+PASS A normal exits use next open with registered slippage
+PASS A confirms complete before each entry
+PASS A no overlapping actual holdings
+PASS A no invented precise intrabar stop time
+PASS A stop-touch extremes excluded
+PASS A final closed PNL equals equity
+PASS B all normal exits keep armed and exactly two completed reversal closes
+PASS B normal exits use next open with registered slippage
+PASS B confirms complete before each entry
+PASS B no overlapping actual holdings
+PASS B no invented precise intrabar stop time
+PASS B stop-touch extremes excluded
+PASS B final closed PNL equals equity
+PASS all monthly schedule fields identical except declared short exit_kind
+PASS both exit_value records preserve .38
+PASS all Step1 42 artifacts unchanged on disk
+PASS 18 period direction comparisons
+PASS 144 month direction comparisons
+PASS A monthly reconciliation long
+PASS B monthly reconciliation long
+PASS A monthly reconciliation short
+PASS B monthly reconciliation short
+PASS A monthly reconciliation combined
+PASS B monthly reconciliation combined
+Final validation passed 25

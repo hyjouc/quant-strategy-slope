@@ -1,0 +1,56 @@
+{
+  "task": "V19 Step 2 short exit momentum ablation 2020-2023",
+  "source_sha256": {
+    "selected_models_30.json": "f7f86d63452bb81a1acbb52a4a5553139443d89582a2d10643adad0db481eba0",
+    "ETH_KalmanMomentum_V18C3_TwoConfirm.py": "39b5ee58b32a75c9a775e57fd5dba9bdb67d426393c9bcd90642276c11502fd9",
+    "reference_replay.py": "4b805f4068a168d66722a66821c90f9f497ea012942f5aaf6b7c620a2e56c782",
+    "reference_independent_zero_slip.py": "930e0cd03912db833aab024648efec79d938ed6e1ed2585101d4ac12ad3a1697",
+    "ohlcv_closed_pre2024.feather": "2c6eb56c8db8498263cd6a5e56eb75a8d27fdcf9225003b02ed60a077f112c79"
+  },
+  "base_commit": "03a71cf8c587bf7bf67b17aef7513fab3e6719e4",
+  "A": "frozen V18 momentum exit",
+  "B": "short normal exit sign-only; exit_value 0.38 retained as audit record",
+  "data": "Step 1 verified inputs/ohlcv_closed_pre2024.feather",
+  "formal_start": "2020-01-10 23:45:00+00:00",
+  "cutoff": "2023-12-31 23:59:59+00:00",
+  "no_post2023": true,
+  "fee_per_side": 0.0005,
+  "slippage_per_side": 0.0002,
+  "margin": 1000,
+  "leverage": 2,
+  "compound": false,
+  "funding": false,
+  "annual_restarts": false,
+  "model_unchanged": true,
+  "source_unchanged": true,
+  "only_factor": "short exit_kind momentum -> sign",
+  "A_expected": {
+    "closed_trades": 710,
+    "net_profit_combined": 6954.3495,
+    "net_profit_2023_combined": -94.9795
+  },
+  "A_actual": {
+    "closed_trades": 710,
+    "net_profit_combined": 6954.34945180789,
+    "net_profit_2023_combined": -94.97954112844309
+  },
+  "B_actual": {
+    "closed_trades": 748,
+    "net_profit_combined": 6469.499233592113
+  },
+  "checks_passed": 40,
+  "python": "3.14.3",
+  "statistical_status": "Retrospective; 2020-2022 training, 2023 recipe selection; final caps historically selected with 2023-2024",
+  "conclusion": "B 没有明显优势，保留 A",
+  "shared_entry_short_n": 365,
+  "shared_entry_short_mean_exit_advance_bars": 18.438356164383563,
+  "verification_count": 78,
+  "normal_exit_execution_checks": 25,
+  "step1_all_42_artifacts_unchanged": true,
+  "step3_started": false,
+  "deployed": false,
+  "threshold_search": false,
+  "censored_open_A": 0,
+  "censored_open_B": 0,
+  "figure_visual_review_completed": true
+}

@@ -1,0 +1,79 @@
+﻿check,passed
+Step1 input exact hash selected_models_30.json,True
+Step1 input exact hash ETH_KalmanMomentum_V18C3_TwoConfirm.py,True
+Step1 input exact hash reference_replay.py,True
+Step1 input exact hash reference_independent_zero_slip.py,True
+Step1 input exact hash ohlcv_closed_pre2024.feather,True
+strict complete candle range and count,True
+unique contiguous candles,True
+single-factor monthly plan difference,True
+short recorded exit_value retained,True
+A independent zero-slip order sequence,True
+A independent zero-slip equity curve,True
+A independent zero-slip fills,True
+A independent original-cost order sequence,True
+A independent original-cost equity curve,True
+A independent original-cost fills,True
+A Step1 all entry exit direction reasons exactly equal,True
+A Step1 full directional and combined equity equal,True
+B independent zero-slip order sequence,True
+B independent zero-slip equity curve,True
+B independent zero-slip fills,True
+B independent original-cost order sequence,True
+B independent original-cost equity curve,True
+B independent original-cost fills,True
+A Step1 closed count,True
+A Step1 net,True
+A Step1 2023,True
+A diagnostic record count,True
+A no open at cutoff,True
+A no post2023 exit,True
+A PNL reconciliation,True
+B diagnostic record count,True
+B no open at cutoff,True
+B no post2023 exit,True
+B PNL reconciliation,True
+B short exit kind changed only,True
+input unchanged after run selected_models_30.json,True
+input unchanged after run ETH_KalmanMomentum_V18C3_TwoConfirm.py,True
+input unchanged after run reference_replay.py,True
+input unchanged after run reference_independent_zero_slip.py,True
+input unchanged after run ohlcv_closed_pre2024.feather,True
+Step1 unchanged snapshot selected_models_30.json,True
+Step1 unchanged snapshot ETH_KalmanMomentum_V18C3_TwoConfirm.py,True
+Step1 unchanged snapshot reference_replay.py,True
+Step1 unchanged snapshot reference_independent_zero_slip.py,True
+Step1 unchanged snapshot ohlcv_closed_pre2024.feather,True
+A independently asserted zero-slip order sequence,True
+A independently asserted zero-slip equity curve,True
+A independently asserted original-cost order sequence,True
+A independently asserted original-cost equity curve,True
+B independently asserted zero-slip order sequence,True
+B independently asserted zero-slip equity curve,True
+B independently asserted original-cost order sequence,True
+B independently asserted original-cost equity curve,True
+A all normal exits keep armed and exactly two completed reversal closes,True
+A normal exits use next open with registered slippage,True
+A confirms complete before each entry,True
+A no overlapping actual holdings,True
+A no invented precise intrabar stop time,True
+A stop-touch extremes excluded,True
+A final closed PNL equals equity,True
+B all normal exits keep armed and exactly two completed reversal closes,True
+B normal exits use next open with registered slippage,True
+B confirms complete before each entry,True
+B no overlapping actual holdings,True
+B no invented precise intrabar stop time,True
+B stop-touch extremes excluded,True
+B final closed PNL equals equity,True
+all monthly schedule fields identical except declared short exit_kind,True
+both exit_value records preserve .38,True
+all Step1 42 artifacts unchanged on disk,True
+18 period direction comparisons,True
+144 month direction comparisons,True
+A monthly reconciliation long,True
+B monthly reconciliation long,True
+A monthly reconciliation short,True
+B monthly reconciliation short,True
+A monthly reconciliation combined,True
+B monthly reconciliation combined,True
